@@ -9,13 +9,17 @@ public class BodyOfWater{
         largestDiameter = d;
         avgDepth = p;
         isSaltWater = s;
-        System.out.println("My name is: " + name);
-        System.out.println("The largest diameter is: " + largestDiameter);
-        System.out.println("The average Depth is: " + avgDepth);
-        if (isSaltWater) {
-            System.out.println("The water is salty.");
-        } else {
-            System.out.println("The water is not salty.");
-        }
     }
+
+    public void setName(String n){
+        name = n;
+    }
+
+    public void setLargestDiameter(int d){
+        largestDiameter = d;
+    }
+
+    public void printState(){
+        print 
+    
 }
